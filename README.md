@@ -20,3 +20,6 @@ Create a function that moves the first character of the string to the end while 
 The following functions and methods were used in this problem:
 
 - rotate_word(text) - 
+
+
+**B. USERNAME BUILDER PROBLEM**
