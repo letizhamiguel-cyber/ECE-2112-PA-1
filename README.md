@@ -23,3 +23,10 @@ The following functions and methods were used in this problem:
 
 
 **B. USERNAME BUILDER PROBLEM**
+
+Create a function accepting two strings: 'first_name' and last_name
+1. convert all letters to lowercase;
+2. remove all spaces from the first name;
+3. remove all spaces from the last name; and
+4. join the processed first and last names using one period (.).
+
