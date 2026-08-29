@@ -19,15 +19,32 @@ Create a function that moves the first character of the string to the end while 
 
 The following functions and methods were used in this problem:
 
-- `rotate_word(text)` - 
+- `rotate_word(text)` -
+
+  Example: `rotate_word("python") ` -> "ythonp"
+
+This built-in function and method were combined in order to create a single defined function that sorts the letters of a word alphabetically;
+
+    \\code
 
 
 **B. USERNAME BUILDER PROBLEM**
 
 Create a function named make_username(), accepting two strings: `first_name` and `last_name`
 function must: 
-1. convert all letters to lowercase;
-2. remove all spaces from the first name;
-3. remove all spaces from the last name; and
-4. join the processed first and last names using one period (.).
+1. Convert all letters to lowercase;
+2. Remove all spaces from the first name;
+3. Remove all spaces from the last name; and
+4. Join the processed first and last names using one period (.).
+
+The following functions and methods were used in this problem:
+
+- `make_username(first_name, last_name)` -
+
+  Example: `make_username("Ada", "Lovelace") ` -> "ada.lovelace"
+
+       \\code
+  
+
+**C. BOOKEND SWAP PROBLEM**
 
