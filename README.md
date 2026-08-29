@@ -1,5 +1,5 @@
 # ECE-2112-PA-1
-Made by: MIGUEL, Letizha Martha C. | Section: 2ECE-D
+**Made by: MIGUEL, Letizha Martha C. | Section: 2ECE-D**
 
 The content of this repository contains the Experiment 1: Introduction to Python Programming for the course ECE 2112: Advanced Programming, this S.Y. 2026-2027. This project covers three python problems pertaining to Module 1 - Introduction to Python. 
 
@@ -13,7 +13,7 @@ At the end of this laboratory activity, the student should be able to:
 
 # Programming Problems
 
-A. WORD ROTATION PROBLEM
+**A. WORD ROTATION PROBLEM**
 
 Create a function that moves the first character of the string to the end while keeping all remaining characters in their original order. The function shall be named rotate_word(), and the capitalization of every character shall be preserved.
 
