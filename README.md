@@ -14,3 +14,8 @@ At the end of this laboratory activity, the student should be able to:
 # Programming Problems
 
 A. WORD ROTATION PROBLEM
+
+Create a function that moves the first character of the string to the end while keeping all remaining characters in their original order. The function shall be named rotate_word(), and the capitalization of every character shall be preserved.
+
+The following functions and methods were used in this problem:
+
