@@ -6,10 +6,10 @@ The content of this repository contains the Experiment 1: Introduction to Python
 # Intended Learning Outcomes
 
 At the end of this laboratory activity, the student should be able to:
-1. use basic Python functions, operators, and string operations;
-2. manipulate strings using indexing, slicing, and built-in string methods;
-3. apply sequence unpacking to manipulate the elements of a list; and
-4. construct simple Python functions that return a specified result.
+1. Use basic Python functions, operators, and string operations;
+2. Manipulate strings using indexing, slicing, and built-in string methods;
+3. Apply sequence unpacking to manipulate the elements of a list; and
+4. Construct simple Python functions that return a specified result.
 
 # Programming Problems
 
@@ -19,3 +19,4 @@ Create a function that moves the first character of the string to the end while 
 
 The following functions and methods were used in this problem:
 
+- 
