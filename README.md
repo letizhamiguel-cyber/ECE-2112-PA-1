@@ -19,12 +19,13 @@ Create a function that moves the first character of the string to the end while 
 
 The following functions and methods were used in this problem:
 
-- rotate_word(text) - 
+- `rotate_word(text)` - 
 
 
 **B. USERNAME BUILDER PROBLEM**
 
-Create a function accepting two strings: 'first_name' and last_name
+Create a function named make_username(), accepting two strings: `first_name` and `last_name`
+function must: 
 1. convert all letters to lowercase;
 2. remove all spaces from the first name;
 3. remove all spaces from the last name; and
