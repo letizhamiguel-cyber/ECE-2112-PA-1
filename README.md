@@ -69,7 +69,11 @@ The function was defined as `first, *middle, last = items ` - as the middle vari
 
 **These functions and methods were used to assign the corresponding values from the author's given lists to their appropriate variables and print them.**
 
-    \\code
+    def swap_bookends (items):
+    first, *middle, last = items
+    
+    return [last] + middle + [first]
+    print(swap_bookends ([4, 5, 6, 7, 8, 9]))
 
 
  
