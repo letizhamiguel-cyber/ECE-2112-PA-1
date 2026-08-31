@@ -75,5 +75,7 @@ The function was defined as `first, *middle, last = items ` - as the middle vari
         return [last] + middle + [first]
     print(swap_bookends ([4, 5, 6, 7, 8, 9]))
 
+Thank you for reading!
 
+To see the main python program for PA 1, click this link: 
  
