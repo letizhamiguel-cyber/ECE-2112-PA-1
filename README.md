@@ -72,7 +72,7 @@ The function was defined as `first, *middle, last = items ` - as the middle vari
     def swap_bookends (items):
     first, *middle, last = items
     
-    return [last] + middle + [first]
+        return [last] + middle + [first]
     print(swap_bookends ([4, 5, 6, 7, 8, 9]))
 
 
