@@ -19,11 +19,11 @@ Create a function that moves the first character of the string to the end while 
 
 The following functions and methods were used in this problem:
 
-- `rotate_word(text)` -
+- `rotate_word(text)` - initial function
 
   Example: `rotate_word("python") ` -> "ythonp"
 
-This built-in function and method were combined in order to create a single defined function that sorts the letters of a word alphabetically;
+These function and method were combined in order to create a single defined function that sorts the letters of a word alphabetically;
 
     \\code
 
@@ -60,7 +60,7 @@ The following functions and methods were used in this problem:
 
  The following functions and methods were used:  
  
-  - `swap_bookends(items)` - the named function
+  - `swap_bookends(items)` - initial function
     
  Sample list: `swap_bookends([1, 2, 3, 4, 5, 6]) `
 
