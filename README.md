@@ -61,10 +61,11 @@ The following functions and methods were used in this problem:
      - `middle` – a list containing everything between the first and last elements; and
      - `last` – the last element.
 
-The function was defined as `first, *middle, last = items ` - as the middle element must remain in the original order, the character asterisk (*) is applied.
+The function was defined as `first, *middle, last = items ` - as the middle variable can include multiple elements, the character asterisk (*) is applied to group the elements together.
 
- - For the switching of last and first elements positions, the `return` function was defined as `[last] + middle + [first]`
+ - For the switching of last and first elements' positions, the `return` function was defined as `[last] + middle + [first]`
  
  Example: `swap_bookends([1, 2, 3, 4, 5, 6]) ` -> [6, 2, 3, 4, 5, 1]
 
+These functions and methods were utilized and 
  
