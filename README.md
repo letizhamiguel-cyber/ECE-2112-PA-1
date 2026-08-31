@@ -52,13 +52,19 @@ The following functions and methods were used in this problem:
 
  The following functions and methods were used:  
  
-  - `swap_bookends(items)` 
-  -  Using extended sequence unpacking, the items were defined as: `first, *middle, last = items ` - as the middle element must remain in the original order, the character asterisk (*) is applied.
-
+  - `swap_bookends(items)` - the named function
+    
  Sample list: `swap_bookends([1, 2, 3, 4, 5, 6]) `
 
- - For the switching of last and first elements positions, the return function was defined as 
+  -  Using extended sequence unpacking, the list was unpacked into three variables:
+     - `first` - the first element;
+     - `middle` – a list containing everything between the first and last elements; and
+     - `last` – the last element.
+
+The function was defined as `first, *middle, last = items ` - as the middle element must remain in the original order, the character asterisk (*) is applied.
+
+ - For the switching of last and first elements positions, the `return` function was defined as `[last] + middle + [first]`
  
- Example: `swap_bookends([1, 2, 3, 4, 5, 6]) ` 
+ Example: `swap_bookends([1, 2, 3, 4, 5, 6]) ` -> [6, 2, 3, 4, 5, 1]
 
  
