@@ -24,7 +24,7 @@ The following functions and methods were used in this problem:
 
   Example: `rotate_word("python") ` -> "ythonp"
 
-These function and method were combined in order to create a single defined function that sorts the letters of a word alphabetically;
+**This function and method were combined to create a function that moves the first character of the string to the end, keeping all remaining characters in their original order, and were then printed.**
 
     def rotate_word(text):
         return text[1:] + text[0]
