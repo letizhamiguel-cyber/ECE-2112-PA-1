@@ -43,7 +43,13 @@ The following functions and methods were used in this problem:
 
   Example: `make_username("Ada", "Lovelace") ` -> "ada.lovelace"
 
-       \\code
+       def make_username (first_name, last_name):
+    
+      build_first = first_name.lower().replace(" ", "")
+      build_last = last_name.lower().replace(" ", "")
+    
+            return build_first + "." + build_last
+      print(make_username("Electronics", "Engineering"))
   
 
 **C. BOOKEND SWAP PROBLEM**
