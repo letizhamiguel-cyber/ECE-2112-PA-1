@@ -20,12 +20,15 @@ Create a function that moves the first character of the string to the end while 
 The following functions and methods were used in this problem:
 
 - `rotate_word(text)` - initial function
+- 
 
   Example: `rotate_word("python") ` -> "ythonp"
 
 These function and method were combined in order to create a single defined function that sorts the letters of a word alphabetically;
 
-    \\code
+    def rotate_word(text):
+        return text[1:] + text[0]
+    print(rotate_word ("birthday"))
 
 
 **B. USERNAME BUILDER PROBLEM**
