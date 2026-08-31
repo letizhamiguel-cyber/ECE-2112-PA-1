@@ -49,3 +49,8 @@ The following functions and methods were used in this problem:
 **C. BOOKEND SWAP PROBLEM**
 
  Return a new list in which the first and last elements have exchanged positions.
+
+ The following function was used:  `swap_bookends(items)`
+
+ 
+ Example: `swap_bookends([1, 2, 3, 4, 5, 6]) ` 
