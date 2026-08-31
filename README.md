@@ -39,14 +39,16 @@ function must:
 
 The following functions and methods were used in this problem:
 
-- `make_username(first_name, last_name)` -
+- `make_username(first_name, last_name)` - initial function
 
   Example: `make_username("Ada", "Lovelace") ` -> "ada.lovelace"
 
-       def make_username (first_name, last_name):
+**These functions and methods were used together to generate the appropriate usernames and were then printed.**
+
+      def make_username (first_name, last_name):
     
-      build_first = first_name.lower().replace(" ", "")
-      build_last = last_name.lower().replace(" ", "")
+        build_first = first_name.lower().replace(" ", "")
+        build_last = last_name.lower().replace(" ", "")
     
             return build_first + "." + build_last
       print(make_username("Electronics", "Engineering"))
@@ -76,10 +78,11 @@ The function was defined as `first, *middle, last = items ` - as the middle vari
 **These functions and methods were used to assign the corresponding values from the author's given lists to their appropriate variables and print them.**
 
     def swap_bookends (items):
-    first, *middle, last = items
+      first, *middle, last = items
     
         return [last] + middle + [first]
     print(swap_bookends ([4, 5, 6, 7, 8, 9]))
+
 
 Thank you for reading!
 
