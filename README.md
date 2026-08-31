@@ -81,7 +81,7 @@ To see the main python program for PA 1, click this link: https://github.com/let
 
 # README file Version History:
 
-August 27, 2026 - .ipynb file uploaded to README.
+August 27, 2026 - .ipynb file uploaded to Github.
 
 August 28, 2026 - Initial Formatting of README.
 
