@@ -79,7 +79,7 @@ Thank you for reading!
 
 To see the main python program for PA 1, click this link: https://github.com/letizhamiguel-cyber/ECE-2112-PA-1/blob/main/PA1.ipynb, download then run all cells. 
 
-# README file Version History:
+# README file History:
 
 August 27, 2026 - .ipynb file uploaded to Github.
 
