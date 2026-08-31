@@ -51,8 +51,14 @@ The following functions and methods were used in this problem:
  Return a new list in which the first and last elements have exchanged positions.
 
  The following functions and methods were used:  
+ 
   - `swap_bookends(items)` 
   -  Using extended sequence unpacking, the items were defined as: `first, *middle, last = items ` - as the middle element must remain in the original order, the character asterisk (*) is applied.
-  -  
+
+ Sample list: `swap_bookends([1, 2, 3, 4, 5, 6]) `
+
+ - 
  
  Example: `swap_bookends([1, 2, 3, 4, 5, 6]) ` 
+
+ 
