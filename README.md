@@ -57,7 +57,7 @@ The following functions and methods were used in this problem:
 
  Sample list: `swap_bookends([1, 2, 3, 4, 5, 6]) `
 
- - 
+ - For the switching of last and first elements positions, the return function was defined as 
  
  Example: `swap_bookends([1, 2, 3, 4, 5, 6]) ` 
 
