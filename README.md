@@ -66,9 +66,7 @@ The function was defined as `first, *middle, last = items ` - as the middle vari
  - For the switching of last and first elements' positions, the `return` function was defined as `[last] + middle + [first]`
  
  Example: `swap_bookends([1, 2, 3, 4, 5, 6]) ` -> [6, 2, 3, 4, 5, 1]
- 
-
-
+ -------
 These functions and methods were used to assign the corresponding values from the author's given lists to their appropriate variables and print them.
 
     \\code
