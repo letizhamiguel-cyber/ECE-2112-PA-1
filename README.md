@@ -75,7 +75,7 @@ The function was defined as `first, *middle, last = items ` - as the middle vari
  
  Example: `swap_bookends([1, 2, 3, 4, 5, 6]) ` -> [6, 2, 3, 4, 5, 1]
 
-**These functions and methods were used to assign the corresponding values from the author's given lists to their appropriate variables and print them.**
+**These functions and methods were used to assign the corresponding values from the author's given lists to their appropriate variables and were then printed.**
 
     def swap_bookends (items):
       first, *middle, last = items
@@ -86,7 +86,7 @@ The function was defined as `first, *middle, last = items ` - as the middle vari
 
 Thank you for reading!
 
-To see the main python program for PA 1, click this link: https://github.com/letizhamiguel-cyber/ECE-2112-PA-1/blob/main/PA1.ipynb, download then run all cells. 
+To see the full python program for PA 1, click this link: https://github.com/letizhamiguel-cyber/ECE-2112-PA-1/blob/main/PA1.ipynb, download then run all cells. 
 
 # README file History:
 
