@@ -15,7 +15,7 @@ At the end of this laboratory activity, the student should be able to:
 
 **A. WORD ROTATION PROBLEM**
 
-Create a function that moves the first character of the string to the end while keeping all remaining characters in their original order. The function shall be named rotate_word(), and the capitalization of every character shall be preserved.
+Create a function that moves the first character of the string to the end while keeping all remaining characters in their original order.
 
 The following functions and methods were used in this problem:
 
@@ -38,8 +38,7 @@ Sample result: `rotate_word("python") ` -> "ythonp"
 
 **B. USERNAME BUILDER PROBLEM**
 
-Create a function named make_username(), accepting two strings: `first_name` and `last_name`
-function must: 
+Create a function named make_username(), accepting two strings: `first_name` and `last_name`. The function must: 
 1. Convert all letters to lowercase;
 2. Remove all spaces from the first name;
 3. Remove all spaces from the last name; and
@@ -82,7 +81,7 @@ Sample result: `make_username("Ana Maria", "De Leon")` -> "anamaria.deleon"
 
   -  Using extended sequence unpacking, the list was unpacked into three variables:
      - `first` - the first element;
-     - `middle` – a list containing everything between the first and last elements; and
+     - `middle` – a list containing the elements between the first and last ones; and
      - `last` – the last element.
 
 The function was defined as `first, *middle, last = items ` - as the middle variable can include multiple elements, the character asterisk (`*`) is applied to group the elements together.
