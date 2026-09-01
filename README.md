@@ -49,6 +49,10 @@ The following functions and methods were used in this problem:
 
 - `make_username(first_name, last_name)` - initial function
 
+Sample: `make_username("Ada", "Lovelace") `
+
+- 
+
   Example: `make_username("Ada", "Lovelace") ` -> "ada.lovelace"
 
 **These functions and methods were used together to generate the appropriate usernames and were then printed.**
