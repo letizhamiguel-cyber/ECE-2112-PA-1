@@ -23,7 +23,7 @@ The following functions and methods were used in this problem:
   
 Sample: `rotate_word("python") `
 
-- using index slicing, `text[1:]` was used, indicating to 'slice' the word python starting from the 2nd character to the rest, resulting in "ython". Meanwhile, `text[0]` refers to the 1st character of the word python, yielding "p."
+- Using index slicing `text[start:stop]`, `text[1:]` was used, indicating to 'slice' the word python starting from the 2nd character (index 1) to the rest, resulting in "ython". Meanwhile, `text[0]` refers to the 1st character (index 0) of the word python, yielding "p."
 
 - The two functions were then concatenated using the plus sign (`+`). So, the `return` function was defined as `text[1:] + text[0]`.
 
@@ -49,13 +49,15 @@ The following functions and methods were used in this problem:
 
 - `make_username(first_name, last_name)` - initial function
 
-Sample: `make_username("Ada", "Lovelace") `
+Sample: `make_username("Ana Maria", "De Leon") `
 
-- To convert the letters to lowercase, `.lower()` was used for both the `first_name` and `last_name` elements. So, `Ada.lower()` yields to "ada", while `Lovelace.lower()` yields to "lovelace".
+- To convert the letters to lowercase, `.lower()` was used for both the `first_name` and `last_name` elements. So, `Ana Maria.lower()` yields to "ana maria", while `De Leon.lower()` yields to "de leon".
 
-- To remove the spaces on the 
+- Additionally, `.replace(old, new) ` was used to remove the spaces on the elements, by setting 'old' as `(" ")` referring to the space between the characters, and the 'new' to `("")` for no spaces anymore. Yielding `de leon.replace(" ", "")` to "deleon".
 
-Sample result: `make_username("Ada", "Lovelace") ` -> "ada.lovelace"
+- Lastly, those 
+
+Sample result: `make_username("Ana Maria", "De Leon")` -> "anamaria.deleon"
 
 **These functions and methods were used together to generate the appropriate usernames and were then printed.**
 
