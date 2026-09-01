@@ -25,7 +25,7 @@ Sample: `rotate_word("python") `
 
 - Using index slicing `text[start:stop]`, `text[1:]` was used, indicating to 'slice' the word python starting from the 2nd character (index 1) to the rest, resulting in "ython". Meanwhile, `text[0]` refers to the 1st character (index 0) of the word python, yielding "p."
 
-- The two methods were then concatenated using the plus sign (`+`). So, the `return` function was defined as `text[1:] + text[0]`.
+- The two variables were then concatenated using the plus sign (`+`). So, the `return` function was defined as `text[1:] + text[0]`.
 
 Sample result: `rotate_word("python") ` -> "ythonp"
 
