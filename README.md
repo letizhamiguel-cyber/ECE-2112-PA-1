@@ -53,10 +53,10 @@ Sample: `make_username("Ana Maria", "De Leon") `
 
 - To convert the letters to lowercase, `.lower()` was used for both the `first_name` and `last_name` elements. So, `Ana Maria.lower()` yields to "ana maria", while `De Leon.lower()` yields to "de leon".
 
-- Additionally, `.replace(old, new) ` was used to remove the spaces on the elements, by setting 'old' as `(" ")` referring to the space between the characters, and the 'new' to `("")` for no spaces anymore. Yielding `de leon.replace(" ", "")` to "deleon".
+- Additionally, `.replace(old, new) ` was used to remove the spaces on the elements, by setting 'old' as `(" ")` referring to the space between the characters, and the 'new' to `("")` for no spaces anymore. Yielding `de leon.replace(" ", "") with "deleon".
 
-- Lastly, those 
-
+- With those functions defined in the created variables `build_first` and `build_last`, these variables were then concatenated with a plus sign (`+`), with "." in between.
+  
 Sample result: `make_username("Ana Maria", "De Leon")` -> "anamaria.deleon"
 
 **These functions and methods were used together to generate the appropriate usernames and were then printed.**
