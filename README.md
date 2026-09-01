@@ -97,4 +97,6 @@ August 27, 2026 - .ipynb file uploaded to GitHub.
 
 August 29, 2026 - Initial Formatting of README.
 
-September 1, 2026 - Input of further README content and Finalization of README.
+September 1, 2026 - Input of further README content.
+
+September 2, 2026 - Finalization of README with file history and key details.
