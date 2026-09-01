@@ -27,7 +27,7 @@ Sample: `rotate_word("python") `
 
 - The two functions were then concatenated using the plus sign (`+`). So, the `return` function was defined as `text[1:] + text[0]`.
 
-  Sample result: `rotate_word("python") ` -> "ythonp"
+Sample result: `rotate_word("python") ` -> "ythonp"
 
 **These functions and methods were combined to create a function that moves the first character of the string to the end, keeping all remaining characters in their original order, and were then printed.**
 
@@ -55,7 +55,7 @@ Sample: `make_username("Ada", "Lovelace") `
 
 - To remove the spaces on the 
 
-  Sample result: `make_username("Ada", "Lovelace") ` -> "ada.lovelace"
+Sample result: `make_username("Ada", "Lovelace") ` -> "ada.lovelace"
 
 **These functions and methods were used together to generate the appropriate usernames and were then printed.**
 
@@ -83,11 +83,11 @@ Sample: `make_username("Ada", "Lovelace") `
      - `middle` – a list containing everything between the first and last elements; and
      - `last` – the last element.
 
-The function was defined as `first, *middle, last = items ` - as the middle variable can include multiple elements, the character asterisk (*) is applied to group the elements together.
+The function was defined as `first, *middle, last = items ` - as the middle variable can include multiple elements, the character asterisk (`*`) is applied to group the elements together.
 
- - For the switching of last and first elements' positions, the `return` function was defined as `[last] + middle + [first]`
+ - For the switching of last and first elements' positions, the `return` function was defined as `[last] + middle + [first]`.
  
- Sample result: `swap_bookends([1, 2, 3, 4, 5, 6]) ` -> [6, 2, 3, 4, 5, 1]
+Sample result: `swap_bookends([1, 2, 3, 4, 5, 6]) ` -> [6, 2, 3, 4, 5, 1]
 
 **These functions and methods were used to assign the corresponding values from the author's given lists to their appropriate variables and were then printed.**
 
