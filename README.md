@@ -20,7 +20,12 @@ Create a function that moves the first character of the string to the end while 
 The following functions and methods were used in this problem:
 
 - `rotate_word(text)` - initial function
-- For the moving of the first letter to the end, the `return` function was defined as `text[1:] + text[0]` - `text[1:]` 
+  
+Sample: `rotate_word("python") `
+
+- using index slicing, `text[1:]` was used indicating to 'slice' the word python starting from the 2nd character to the rest, resulting to "ython". Meanwhile `text[0]` was used pertaining to the 1st character of the word python, which gives us the result of "p".
+
+-  The two functions was then concatenated using the plus sign (`+`). So, the `return` function was defined as `text[1:] + text[0]`.
 
   Example: `rotate_word("python") ` -> "ythonp"
 
