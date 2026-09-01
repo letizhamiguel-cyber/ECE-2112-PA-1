@@ -23,13 +23,13 @@ The following functions and methods were used in this problem:
   
 Sample: `rotate_word("python") `
 
-- using index slicing, `text[1:]` was used indicating to 'slice' the word python starting from the 2nd character to the rest, resulting to "ython". Meanwhile `text[0]` was used pertaining to the 1st character of the word python, which gives us the result of "p".
+- using index slicing, `text[1:]` was used, indicating to 'slice' the word python starting from the 2nd character to the rest, resulting in "ython". Meanwhile, `text[0]` refers to the 1st character of the word python, yielding "p."
 
--  The two functions was then concatenated using the plus sign (`+`). So, the `return` function was defined as `text[1:] + text[0]`.
+- The two functions were then concatenated using the plus sign (`+`). So, the `return` function was defined as `text[1:] + text[0]`.
 
-  Example: `rotate_word("python") ` -> "ythonp"
+  Sample result: `rotate_word("python") ` -> "ythonp"
 
-**This function and method were combined to create a function that moves the first character of the string to the end, keeping all remaining characters in their original order, and were then printed.**
+**These functions and methods were combined to create a function that moves the first character of the string to the end, keeping all remaining characters in their original order, and were then printed.**
 
     def rotate_word(text):
         return text[1:] + text[0]
@@ -51,9 +51,11 @@ The following functions and methods were used in this problem:
 
 Sample: `make_username("Ada", "Lovelace") `
 
-- 
+- To convert the letters to lowercase, `.lower()` was used for both the `first_name` and `last_name` elements. So, `Ada.lower()` yields to "ada", while `Lovelace.lower()` yields to "lovelace".
 
-  Example: `make_username("Ada", "Lovelace") ` -> "ada.lovelace"
+- To remove the spaces on the 
+
+  Sample result: `make_username("Ada", "Lovelace") ` -> "ada.lovelace"
 
 **These functions and methods were used together to generate the appropriate usernames and were then printed.**
 
@@ -85,7 +87,7 @@ The function was defined as `first, *middle, last = items ` - as the middle vari
 
  - For the switching of last and first elements' positions, the `return` function was defined as `[last] + middle + [first]`
  
- Example: `swap_bookends([1, 2, 3, 4, 5, 6]) ` -> [6, 2, 3, 4, 5, 1]
+ Sample result: `swap_bookends([1, 2, 3, 4, 5, 6]) ` -> [6, 2, 3, 4, 5, 1]
 
 **These functions and methods were used to assign the corresponding values from the author's given lists to their appropriate variables and were then printed.**
 
